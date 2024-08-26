@@ -1,10 +1,10 @@
 # Juego Contador
 
-## En el directorio de el proyecto primero correr el comando :
+En el directorio de el proyecto primero correr el comando :
 
-### `npm i`
+    `npm i`
 
-## Para descargar las dependencias para el uso de la app
+Para descargar las dependencias para el uso de la app
 
 ## Para iniciarla correr el comando :
 
