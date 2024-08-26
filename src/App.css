@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+:root {
+  --colorBoton: #377bbb;
+  --colorBotonDes: #5ba2e0;
+  --colorSombra: #185d99;
+  --colorFont: #000000;
+  --colorFondo: #3ea5ff;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.infoJuego {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+
+
+.botones {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--colorFondo);
+  margin: 20px;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.texto{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: var(--colorFondo);
+  margin: 20px;
+  
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+.puntaje{
+  font-size: 20px;
+
+}
+
+.titulo{
+  font-family: "Montserrat", sans-serif;
+  color: var(--colorFont);
+}
+
+.subtitle{
+  width: 100%;
+  font-size: 20px;
+  background-color: var(--colorFondo);
+  text-align: center;
+  padding: 20px 0;
+  color: var(--colorFont);
+
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.startButton {
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+
+  color: #FAFAFA;
+  border-radius: 8px;
+  border: 2px solid var(--colorSombra);
+  box-shadow: 0px 5px var(--colorSombra);
+  background: var(--colorBoton);
+
+  font-family: "Montserrat", sans-serif;
+
+
+
+}
+
+.startButton:active {
+  box-shadow: none;
+  transform: translate(0px, 5px);
+  
+}
+
+
+.clickButton {
+  font-size: 20px;
+  margin: 10px;
+  padding: 100px;
+  width: 100%;
+
+  color: #FAFAFA;
+  border-radius: 8px;
+  border: 2px solid var(--colorSombra);
+  box-shadow: 0px 5px var(--colorSombra);
+  background: var(--colorBoton);
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.clickButton:active {
+  box-shadow: none;
+  transform: translate(0px, 5px);
+}
+
+ .clickButton:disabled {
+  box-shadow: none;
+  color: #8b8b8b;
+  transform: translate(0px, 5px);
+  border: 2px solid var(--colorSombra);
+  background: var(--colorBotonDes);
+  cursor: not-allowed;
+}
+
+
+#preparado{
+  background-color: rgb(255, 38, 0);
+}
+
+#listo{
+  background-color: rgb(255, 208, 0);
+}
+
+#ya{
+  background-color: rgb(0, 230, 92);
+}
